@@ -2,19 +2,34 @@ html, body{
   margin: 0;
   padding: 0;
 }
-//Nav bar start
+a{
+  text-decoration: none;
+}
+/*Nav Bar Start*/
 .navBar{
   width: 100vw;
-  height: 100px;
+  height: 50px;
   background-color: black;
   margin: 0px;
   padding: 10px;
   display: flex;
-  flex-direction: row;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  position: sticky;
 }
 
 .navBarItem{
-  color: white;
+  display: flex;
+  height: 50px;
+  padding: auto; 
+  align-items: center;
+  text-align: center;
+
 }
 
-//Nav bar end
+.item{
+  color: white;
+  font-size: auto;
+  /*font-family: ;*/
+}
+/*Nav Bar end*/
