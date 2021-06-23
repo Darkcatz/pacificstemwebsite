@@ -1,12 +1,13 @@
 .headingCont{
     width: 100vw;
-    height: 90vh;
+    height: 100vh;
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     overflow: hidden;
+    z-index: 3;
 }
 .title{
     font-size: 100px;
@@ -21,4 +22,21 @@
     width: 200px;
     height: 50px;
     font-size: 20px;
+    border: none;
+    background-color: rgba(0, 255, 255, 0.336);
+}
+.background{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(/imgs/CorkBoard.png);
+    filter: blur(20px);
+    background-size: 70vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: fixed;
+    z-index: -1;
+    position: fixed;
+}
+.spacer{
+    height: 100vh;
 }

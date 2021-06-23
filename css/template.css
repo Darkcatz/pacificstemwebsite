@@ -1,6 +1,7 @@
 html, body{
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
 a{
   text-decoration: none;
@@ -15,7 +16,9 @@ a{
   display: flex;
   flex-flow: row wrap;
   justify-content: space-evenly;
-  position: sticky;
+  position: fixed;
+  z-index: 10;
+  overflow: hidden;
 }
 
 .navBarItem{
