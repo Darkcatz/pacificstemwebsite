@@ -42,6 +42,7 @@
   bottom: 0;
   text-align: center;
   height: 40vh;
+  z-index: -1;
 }
 #table{
   max-width: 100%;
@@ -54,4 +55,48 @@
   max-height: 70%;
   max-width: 70%;
   filter: blur(15px);
+}
+
+.mission{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    z-index: 1;
+    margin: 0;
+    padding-top: 30px;
+    width: 100vw;
+    height: 100vh;
+}
+.heading{
+    margin-top: 30px;
+}
+.missionBox{
+    margin-top: 50px;
+    width: calc(70vw - 40px);
+    background-color: aqua;
+    display: flex;
+    justify-content: flex-end;
+    padding: 40px;
+    border-radius: 20px;
+}
+.missionBoxText{
+    width: 30vw;
+}
+.missionText{
+    margin: 0;
+    margin-top: 5px;
+}
+.learnMore2{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    width: calc(50% - 15px);
+    background-color: white;
+    border-radius: 30px;
+}
+.ourMission{
+    font-size: 30px;
+    margin: 0px;
 }
