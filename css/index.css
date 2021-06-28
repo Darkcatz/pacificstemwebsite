@@ -54,4 +54,6 @@
   max-height: 70%;
   max-width: 70%;
   filter: blur(15px);
+  -webkit-filter: blur(15px);
+  -moz-filter: blur(15px);
 }
