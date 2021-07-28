@@ -2,39 +2,67 @@ html, body{
   margin: 0;
   padding: 0;
 }
-
+*{
+  box-sizing: border-box;
+}
 a{
   text-decoration: none;
 }
 
 /*Nav Bar Start*/
-.navBar{
+#navBar{
   width: 100vw;
-  background-color: black;
-  margin: 0px;
+  background-color: #436C83;
   padding: 10px;
   display: flex;
-  flex-flow: row wrap;
-  justify-content: space-evenly;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
   position: fixed;
-  z-index: 10;
-  box-sizing: border-box;
+  z-index: 1;
+  top:0;
+
+}
+
+#navBar div{
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+  width: 75vw;
+}
+
+#navBar img{
+  max-width: 50px;
 }
 
 .navBarItem{
+  padding: 10px;
   display: flex;
-  height: 50px;
-  padding: auto; 
-  align-items: center;
+  justify-content: center;
+
+}
+
+.navBarItem a{
+  color: white;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
   text-align: center;
 }
 
-.item{
-  color: white;
-  font-size: auto;
-  /*font-family: ;*/
+h2{
+  margin:0;
+  padding: 10px 0;
 }
-/*Nav Bar end*/
-h1{
-  margin: 0px;
+
+h5{
+  margin:0;
+  padding: 8px 0;
+}
+
+h3{
+  margin: 0;
+  padding: 9px 0;
 }

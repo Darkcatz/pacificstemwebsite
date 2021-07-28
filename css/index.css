@@ -1,102 +1,202 @@
-.headingCont{
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  z-index: 3;
-  height: calc(100vh - 70px);
-}
-.title{
-  font-size: 100px;
-  padding: none;
-  margin: 0px;
-}
-.subtitle{
-  margin: 0px;
-  margin-bottom: 20px;
-}
-.learnMore{
-  width: 200px;
-  height: 50px;
-  font-size: 20px;
-  border: none;
-  background-color: rgba(0, 255, 255, 0.336);
-  border-radius: 3px;
-}
-.background{
-  height: calc(100vh - 70px);
-  width: 100vw;
-  z-index: -1;
-  position: fixed;
-  padding: 30px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 70px;
-  box-sizing: border-box;
-}
-.table{
-  width: 100vw;
-  position: fixed;
-  bottom: 0;
-  text-align: center;
-  height: 40vh;
-  z-index: -1;
-}
-#table{
-  max-width: 100%;
-  max-height: 100%;
-}
-.spacer{
-  height: 100vh;
-}
-#corkboard{
-  max-height: 70%;
-  max-width: 70%;
-  filter: blur(15px);
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Ribeye&display=swap');
+
+body{
+  background-color: #EFEFEF;
 }
 
-.mission{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background: white;
-    z-index: 1;
-    margin: 0;
-    padding-top: 30px;
-    width: 100vw;
-    height: 100vh;
+#title{
+  text-align: center;
+  color: #1E2F97;
+  margin-top: 70px;
+  padding: 40px;
 }
-.heading{
-    margin-top: 30px;
+
+#title h2{
+  font-family: Ribeye;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 72px;
+  line-height: 80px;
+  text-align: center;
 }
-.missionBox{
-    margin-top: 50px;
-    width: calc(70vw - 40px);
-    background-color: aqua;
-    display: flex;
-    justify-content: flex-end;
-    padding: 40px;
-    border-radius: 20px;
+
+#title h5{
+  font-family: Ruda;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
 }
-.missionBoxText{
-    width: 30vw;
+
+#mission{
+  background: #72CBCB;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  width: 65vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px auto;
 }
-.missionText{
-    margin: 0;
-    margin-top: 5px;
+
+#mission img{
+  max-width: 30vw;
+  max-height: 60vh;
+  position: absolute;
+  margin-left: 5vw;
+  filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.25));
+  border-radius: 20px;
 }
-.learnMore2{
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
-    padding: 15px;
-    width: calc(50% - 15px);
-    background-color: white;
-    border-radius: 30px;
+
+#mission h3{
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 45px;
+  color: #1E2F97;
 }
-.ourMission{
-    font-size: 30px;
-    margin: 0px;
+
+#mission p{
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #1E2F97;
+}
+#mission .content{
+  padding: 40px;
+  max-width: 50%;
+}
+#mission .content div{
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  background: #797EF6;
+  border-radius: 30px;
+  color: #FFFFFF;
+  width: 175px;
+  padding: 10px 15px;
+}
+
+#stats{
+  background-color: #63BAE4;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 30px;
+  margin-top: 70px;
+}
+
+#stats div{
+  background-color: #1E2F97;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 2px 8px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  text-align: center;
+  padding: 10px 20px;
+  width: 30%
+}
+
+#stats h1{
+  font-family: Ribeye;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 144px;
+  line-height: 197px;
+  margin: 10px 0;
+  color: #797EF6;
+}
+
+#stats h4{
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 45px;
+  color: #797EF6;
+  margin: 10px 0;
+}
+
+#volunteer{
+  height: 60vw;
+}
+
+#volunteer img{
+  filter: brightness(50%);
+  position: absolute;
+  width: 100vw;
+}
+
+#volunteer div{
+  padding: 60px 80px;
+  position: absolute;
+}
+#volunteer h2{
+  font-family: Ribeye;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 86px;
+  line-height: 117px;
+  color: #FFFFFF;
+  z-index: 2;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#volunteer h6{
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 50px;
+  z-index: 2;
+  color: #FFFFFF;
+}
+
+#programs{
+  padding: 60px;
+}
+
+#programs h2{
+  font-family: Ribeye;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 75px;
+  line-height: 102px;
+
+  color: #053B59;
+
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#programs .container{
+  background: #72CBCB;
+  box-shadow: 2px 8px 4px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 44px;
+  padding: 40px;
+
+  font-family: Ribeye;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 58px;
+  line-height: 79px;
+  text-align: center;
+
+  color: #797EF6;
+}
+
+#programs .row{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+
+#programs .content{
+  display: flex;
+  flex-direction: column;
 }
