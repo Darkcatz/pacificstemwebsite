@@ -200,3 +200,67 @@ body{
   display: flex;
   flex-direction: column;
 }
+
+#events{
+  width: 100vw;
+  padding: 40px;
+}
+
+#events .bettertitle{
+  font-family: Ribeye;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 75px;
+  line-height: 102px;
+
+  color: #053B59;
+
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#events .box{
+  background-color: aqua;
+  margin: 2vw;
+  padding: 40px;
+  border-radius: 30px;
+}
+
+#events .title{
+  font-family: Ribeye;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 75px;
+  line-height: 102px;
+
+  color: #ffffff;
+
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#events p{
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 50px;
+  z-index: 2;
+  color: #FFFFFF;
+}
+
+#events .buttonCont{
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px;
+}
+
+#events .MoEvents{
+  border-radius: 50px;
+  background-color: black;
+  width: 10vw;
+  height: 50px;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
