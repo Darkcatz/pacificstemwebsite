@@ -212,17 +212,17 @@ body{
   font-weight: normal;
   font-size: 75px;
   line-height: 102px;
-
+  
   color: #053B59;
-
+  
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 #events .box{
-  background-color: aqua;
   margin: 2vw;
   padding: 40px;
-  border-radius: 30px;
+  background: #63BAE4;
+  border-radius: 50px;
 }
 
 #events .title{
@@ -232,7 +232,7 @@ body{
   font-size: 75px;
   line-height: 102px;
 
-  color: #ffffff;
+  color: #FFFFFF;
 
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
@@ -243,7 +243,7 @@ body{
   font-weight: bold;
   font-size: 40px;
   line-height: 50px;
-  z-index: 2;
+  
   color: #FFFFFF;
 }
 
@@ -254,8 +254,8 @@ body{
 }
 
 #events .MoEvents{
-  border-radius: 50px;
-  background-color: black;
+  background: #797EF6;
+  border-radius: 30px;
   width: 10vw;
   height: 50px;
   color: white;
@@ -263,4 +263,13 @@ body{
   justify-content: center;
   display: flex;
   flex-direction: column;
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #FFFFFF;
 }
